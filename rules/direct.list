@@ -1,7 +1,32 @@
 # NAME: Direct
-# DESC: 国内常见站点补充 + 当前订阅的 GEOIP,CN（来自 LoonLiteRules cn.list）
+# DESC: 所有直连：个人/公司、局域网、国内站点、GEOIP CN
 # POLICY: DIRECT
-GEOIP,CN
+
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidu-int.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,volccdn.com
+IP-CIDR,179.255.110.30/32,no-resolve
+IP-CIDR,120.26.67.214/32,no-resolve
+IP-CIDR,72.62.163.76/32,no-resolve
+
+DOMAIN,localhost
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,lan
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,100.64.0.0/10,no-resolve
+IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR,169.254.0.0/16,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
+IP-CIDR,224.0.0.0/4,no-resolve
+IP-CIDR,255.255.255.255/32,no-resolve
+IP-CIDR6,::1/128,no-resolve
+IP-CIDR6,fc00::/7,no-resolve
+IP-CIDR6,fe80::/10,no-resolve
 
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,alicdn.com
@@ -32,3 +57,4 @@ DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cn
+GEOIP,CN
