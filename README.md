@@ -10,18 +10,20 @@
 
 | 文件 | 建议策略 | 干什么 |
 |---|---|---|
-| `rules/reject.list` | REJECT | 广告 / 追踪 |
-| `rules/lan.list` | DIRECT | 局域网、回环 |
-| `rules/personal.list` | DIRECT | 你自己的公司、内网、节点 IP |
-| `rules/ai.list` | Available 或单独 AI 组 | ChatGPT / Claude / Grok |
-| `rules/streaming.list` | Streaming | Netflix / Disney+ / YouTube |
-| `rules/telegram.list` | Available | Telegram |
-| `rules/twitter.list` | Available | X / Twitter |
-| `rules/google.list` | Available | Google |
-| `rules/github.list` | Available | GitHub |
-| `rules/apple.list` | DIRECT | 苹果（要走代理就改 policy） |
-| `rules/proxy.list` | Available | 其它必须翻墙的 |
-| `rules/direct.list` | DIRECT | 国内站点补充 |
+| 文件 | 建议策略 | 来源（你现在 Loon 规则页） |
+|---|---|---|
+| `rules/reject.list` | REJECT | fmz200 `rejectAd.list`（原订阅关着，内容已拷过来） |
+| `rules/lan.list` | DIRECT | 新建，局域网 |
+| `rules/personal.list` | DIRECT | 配置里 `[Rule]` 本地直连 |
+| `rules/ai.list` | Available | fmz200 `AI.list`（sooyaaabo `AI.lsr` 源已 404） |
+| `rules/proxy.list` | Available | blackmatrix7 `Proxy.list` + `Proxy_Domain.list`（6900 条） |
+| `rules/direct.list` | DIRECT | `GEOIP,CN`（LoonLiteRules `cn.list`）+ 国内补充 |
+| `rules/streaming.list` | Streaming | 新建细分，方便挂 JP/HK |
+| `rules/telegram.list` | Available | 新建细分 |
+| `rules/twitter.list` | Available | 配置里 `twimg.com` 等 + 细分 |
+| `rules/google.list` | Available | 配置里 `gstatic.com` 等 + 细分 |
+| `rules/github.list` | Available | 新建细分 |
+| `rules/apple.list` | DIRECT | 配置里 `apple.com` + 细分 |
 
 先拆这三类就够用：直连 / 代理 / 拒绝。上面多出来的，是因为它们经常要绑**不同策略组**（AI 锁美、流媒体锁日、苹果直连）。
 
@@ -53,8 +55,6 @@ USER-AGENT,MicroMessenger*
 https://raw.githubusercontent.com/<用户名>/<仓库>/main/rules/personal.list
 ```
 
-订阅后，Loon 配置里原来那几条本地 `DOMAIN-SUFFIX,baidu.com,DIRECT` 可以删，已经迁到 `personal.list`。
+大名单已经拷进本仓库。接上之后，Loon 里原来的远程规则（blackmatrix7 Proxy、cn.list、AI.lsr、rejectAd）可以关掉，避免两套重复匹配。
 
-## 和现有订阅的关系
-
-你现在还挂着 blackmatrix7 的大 Proxy 列表、国内 GEOIP。这套自建列表是**覆盖层**：自己的判断写这里，大名单继续垫底。
+`uBlacklist.lsr` 源仓库 404，没拷到。

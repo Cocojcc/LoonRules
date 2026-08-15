@@ -1,5 +1,5 @@
 # NAME: Personal
-# DESC: 自己的公司 / 内网 / 节点 IP，优先于其它列表
+# DESC: 从当前 Loon [Rule] 本地规则复制的直连项（公司 / 内网 / 节点 IP）
 # POLICY: DIRECT
 
 DOMAIN-SUFFIX,baidu.com

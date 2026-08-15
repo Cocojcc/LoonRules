@@ -1,6 +1,7 @@
 # NAME: Direct
-# DESC: 国内常见站点补充。GEOIP,CN 盖不住、或解析到国外 CDN 时仍要直连的，写这里
+# DESC: 国内常见站点补充 + 当前订阅的 GEOIP,CN（来自 LoonLiteRules cn.list）
 # POLICY: DIRECT
+GEOIP,CN
 
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,alicdn.com
