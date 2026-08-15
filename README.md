@@ -27,5 +27,6 @@ GEOIP,CN
 
 把 `subscribe.conf` 里 `[Remote Rule]` 贴进 Loon，重载。
 
-线上地址：`https://luffy.cc/loon/rules/`
-GitHub：`https://github.com/Cocojcc/loon-rules`
+```
+https://raw.githubusercontent.com/Cocojcc/LoonRules/master/rules/
+```
