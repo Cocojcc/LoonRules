@@ -1,0 +1,22 @@
+# NAME: GitHub
+# DESC: GitHub / raw / ghcr。你已经有 GitHub 镜像插件，策略可按需切
+# POLICY: Available
+
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN,github.githubassets.com
+DOMAIN,raw.githubusercontent.com
+DOMAIN,objects.githubusercontent.com
+DOMAIN,codeload.github.com
+DOMAIN,api.github.com
+DOMAIN,gist.github.com
+DOMAIN,avatars.githubusercontent.com
+DOMAIN,camo.githubusercontent.com
+USER-AGENT,github*

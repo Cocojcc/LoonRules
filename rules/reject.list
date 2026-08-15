@@ -1,0 +1,20 @@
+# NAME: Reject
+# DESC: 广告 / 追踪。大名单继续用插件，这里只放自己确认要拦的
+# POLICY: REJECT
+
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,pagead2.googlesyndication.com
+DOMAIN-SUFFIX,ads.yahoo.com
+DOMAIN-SUFFIX,adsafeprotected.com
+DOMAIN-SUFFIX,scorecardresearch.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,cnzz.com
+DOMAIN-SUFFIX,growingio.com
+DOMAIN-KEYWORD,adservice
+DOMAIN-KEYWORD,adsystem

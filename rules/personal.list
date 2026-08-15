@@ -1,0 +1,14 @@
+# NAME: Personal
+# DESC: 自己的公司 / 内网 / 节点 IP，优先于其它列表
+# POLICY: DIRECT
+
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidu-int.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,volccdn.com
+IP-CIDR,179.255.110.30/32,no-resolve
+IP-CIDR,120.26.67.214/32,no-resolve
+IP-CIDR,72.62.163.76/32,no-resolve

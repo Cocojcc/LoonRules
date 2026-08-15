@@ -1,0 +1,38 @@
+# NAME: Google
+# DESC: Google 全家桶。YouTube 已拆到 streaming.list
+# POLICY: Available
+
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.com.tw
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googlesource.com
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,googleblog.com
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,g.co
+DOMAIN,accounts.google.com
+DOMAIN,clients1.google.com
+DOMAIN,clients2.google.com
+DOMAIN,clients3.google.com
+DOMAIN,clients4.google.com
+DOMAIN,clients5.google.com
+DOMAIN,clients6.google.com
+DOMAIN-KEYWORD,1e100
+DOMAIN-KEYWORD,blogspot
+USER-AGENT,com.google.ios*
+USER-AGENT,Google*

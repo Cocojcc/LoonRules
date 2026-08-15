@@ -1,0 +1,33 @@
+# NAME: Direct
+# DESC: 国内常见站点补充。GEOIP,CN 盖不住、或解析到国外 CDN 时仍要直连的，写这里
+# POLICY: DIRECT
+
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhimg.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,cctv.com
+DOMAIN-SUFFIX,cn
