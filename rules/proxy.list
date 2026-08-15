@@ -1,8 +1,8 @@
 # NAME: Proxy
-# DESC: 从当前 Loon 订阅复制：blackmatrix7 Proxy.list + Proxy_Domain.list
-# SOURCE: https://github.com/blackmatrix7/ios_rule_script
+# DESC: 翻墙合集。只有一条 VPN 订阅，Google/Twitter/GitHub/Telegram/流媒体/Apple 都走这里
+# SOURCE: blackmatrix7 Proxy + 原细分列表合并
 # UPDATED: 2026-08-15
-# TOTAL: 6900
+# TOTAL: 6988
 # POLICY: Available
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,1e100
@@ -6904,3 +6904,91 @@ DOMAIN,developer.apple.com
 DOMAIN,login.microsoftonline.com
 DOMAIN,testflight.apple.com
 DOMAIN,voice.telephony.goog
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,gs-loc.apple.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.com.tw
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googlesource.com
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,googleblog.com
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN,accounts.google.com
+DOMAIN,clients1.google.com
+DOMAIN,clients2.google.com
+DOMAIN,clients3.google.com
+DOMAIN,clients4.google.com
+DOMAIN,clients5.google.com
+DOMAIN,clients6.google.com
+USER-AGENT,com.google.ios*
+USER-AGENT,Google*
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN,abs.twimg.com
+DOMAIN,pbs.twimg.com
+DOMAIN,video.twimg.com
+DOMAIN,api.twitter.com
+DOMAIN,api.x.com
+USER-AGENT,Twitter*
+USER-AGENT,Twitter-iPhone*
+USER-AGENT,X/*
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN,github.githubassets.com
+DOMAIN,raw.githubusercontent.com
+DOMAIN,objects.githubusercontent.com
+DOMAIN,codeload.github.com
+DOMAIN,api.github.com
+DOMAIN,gist.github.com
+DOMAIN,avatars.githubusercontent.com
+DOMAIN,camo.githubusercontent.com
+USER-AGENT,github*
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.me
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.20.0/22,no-resolve
+IP-CIDR,91.108.56.0/22,no-resolve
+USER-AGENT,Telegram*
+DOMAIN-SUFFIX,disney.com
+DOMAIN-SUFFIX,pv-cdn.net
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,spotifycdn.net
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,googlevideo.com
+USER-AGENT,YouTube*
+USER-AGENT,Netflix*
+USER-AGENT,Disney*
+USER-AGENT,Spotify*
