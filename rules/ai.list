@@ -1,8 +1,8 @@
 # NAME: AI
 # DESC: AI 服务，策略同翻墙 Available
 # UPDATED: 2026-08-15
-# TOTAL: 105
-# SOURCES: fmz200 AI + blackmatrix7 OpenAI/Claude/Gemini/BardAI
+# TOTAL: 106
+# SOURCES: fmz200 + blackmatrix7 OpenAI/Claude/Gemini + ACL4SSR OpenAi
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
 AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
 DOMAIN,chatgpt.livekit.cloud
@@ -108,3 +108,4 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
+DOMAIN-SUFFIX,challenges.cloudflare.com

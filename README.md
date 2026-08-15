@@ -15,11 +15,14 @@
 
 直连写 `direct.list`，翻墙写 `proxy.list`。
 
-名单来源（2026-08-15 合并，仓库仍在更新）：
+名单来源（2026-08-15，热门且仍在更新，已转成 Loon 语法去重）：
 
-- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) `Global` / `Proxy` / `ChinaMax` / `Direct` / `Advertising` / `Privacy` / OpenAI·Claude·Gemini
-- [fmz200/wool_scripts](https://github.com/fmz200/wool_scripts) `rejectAd` / `AI`
-- [Loon0x00/LoonLiteRules](https://github.com/Loon0x00/LoonLiteRules) `GEOIP,CN`
+- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) Global / ChinaMax / Advertising
+- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) proxy / direct / reject / gfw / cncidr（日更）
+- [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) GFW / China / BanAD / OpenAi
+- [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) 秋风广告
+- [fmz200/wool_scripts](https://github.com/fmz200/wool_scripts) rejectAd / AI
+- [Loon0x00/LoonLiteRules](https://github.com/Loon0x00/LoonLiteRules) GEOIP,CN
 
 ## 一行怎么写
 
