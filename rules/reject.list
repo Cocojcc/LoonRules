@@ -1,10 +1,10 @@
 # NAME: Reject
 # DESC: 广告/追踪域名。已去掉广告 IP 段（易过期、易误伤 DNS）。
 # UPDATED: 2026-08-15
-# TOTAL: 269271
+# TOTAL: 269250
 # SOURCES: fmz200 + blackmatrix7 Advertising + Loyalsoldier reject + ACL4SSR + 秋风
 
-# --- 关键词 (291) ---
+# --- 关键词 (290) ---
 DOMAIN-KEYWORD,-ad-sign.byteimg.com
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-rtb.gravite.net
@@ -141,7 +141,6 @@ DOMAIN-KEYWORD,fb-business-appeal
 DOMAIN-KEYWORD,fb-community-standards
 DOMAIN-KEYWORD,fb-restriction-appeal
 DOMAIN-KEYWORD,fb-restriction-case
-DOMAIN-KEYWORD,fc-video.cdn.bcebos.com
 DOMAIN-KEYWORD,fds.api.moji.com
 DOMAIN-KEYWORD,fenxi
 DOMAIN-KEYWORD,flightsy
@@ -297,7 +296,7 @@ DOMAIN-KEYWORD,ynuf.alipay.com
 DOMAIN-KEYWORD,zjtoolbar
 DOMAIN-KEYWORD,zymerget
 
-# --- 域名 (268964) ---
+# --- 域名 (268944) ---
 DOMAIN,0.code.cotsta.ru
 DOMAIN,00-gov.cn
 DOMAIN,0026645142c89aeb1.com
@@ -2774,7 +2773,6 @@ DOMAIN,bdstatic.eastmoney.com
 DOMAIN,bdu1.eol.cn
 DOMAIN,bdxs.playnetx.cn
 DOMAIN,bdyhvguiq.com
-DOMAIN,bdyingxiaocms.cdn.bcebos.com
 DOMAIN,be-funk.com
 DOMAIN,be-notified.com
 DOMAIN,beacon-cdn-custom.walmart.com.akadns.net
@@ -3813,7 +3811,6 @@ DOMAIN,cmp.pcwelt.de
 DOMAIN,cmp.pcworld.pl
 DOMAIN,cmplay.did.ijinshan.com
 DOMAIN,cms-bucket.ws.126.net
-DOMAIN,cms-image.cdn.bcebos.com
 DOMAIN,cms.uc.cn
 DOMAIN,cmshow.qq.com
 DOMAIN,cmspoddbak.com
@@ -4023,7 +4020,6 @@ DOMAIN,cpms.now.com
 DOMAIN,cppnznmorh.com
 DOMAIN,cps.yaoqing.com
 DOMAIN,cptycdzksyvn.com
-DOMAIN,cpu-baidu-com-block.cdn.bcebos.com
 DOMAIN,cpucdn.baidu.com
 DOMAIN,cpulaptop.com
 DOMAIN,cpull.360.cn
@@ -6974,7 +6970,6 @@ DOMAIN,hzskbnafzwsu.com
 DOMAIN,hzsmmfohtye.com
 DOMAIN,hztjenzlrrwinq.com
 DOMAIN,hzwmcqlmxpdrlp.com
-DOMAIN,hzyd.cdn.bcebos.com
 DOMAIN,hzyxd.cn
 DOMAIN,hzyxmywj.com
 DOMAIN,hzzevwlmjji.com
@@ -9497,7 +9492,6 @@ DOMAIN,mob22.lymiao89.com
 DOMAIN,mob26.jnjszl.com
 DOMAIN,mobad.ijinshan.com
 DOMAIN,mobads-logs.baidu.com
-DOMAIN,mobads-pre-config.cdn.bcebos.com
 DOMAIN,mobads.baidu.com
 DOMAIN,mobap.njlbms.com
 DOMAIN,mobappconfig.securities.eastmoney.com
@@ -12574,7 +12568,6 @@ DOMAIN,shgnts.net
 DOMAIN,shicao.icantv.cn
 DOMAIN,shidvvvhi.com
 DOMAIN,shijincx.cn
-DOMAIN,shijuezhongguo.cdn.bcebos.com
 DOMAIN,shitiphu.com
 DOMAIN,shjmjmds.com
 DOMAIN,shkunjia.com.cn
@@ -12990,7 +12983,6 @@ DOMAIN,static.ziftsolutions.com
 DOMAIN,static1.searchbox.baidu.com
 DOMAIN,statics-marketingsites-eus-ms-com.akamaized.net
 DOMAIN,statics-marketingsites-neu-ms-com.akamaized.net
-DOMAIN,staticsns.cdn.bcebos.com
 DOMAIN,statictapcdn-a.akamaihd.net
 DOMAIN,statis1.mama.cn
 DOMAIN,statistics.liusha.info
@@ -15893,8 +15885,6 @@ DOMAIN,wzhdjexsw.com
 DOMAIN,wzhmaehmunibp.com
 DOMAIN,wziaqxvxmpfshx.com
 DOMAIN,wziftlp.com
-DOMAIN,wzjs.cdn.bcebos.com
-DOMAIN,wzjs2.cdn.bcebos.com
 DOMAIN,wzlcpagvidi.com
 DOMAIN,wznnfwhwwjkp.com
 DOMAIN,wznupnxp.com
@@ -16178,7 +16168,6 @@ DOMAIN,xs.gdt.qq.com
 DOMAIN,xs.mochiads.com
 DOMAIN,xs.searchacg.org
 DOMAIN,xsa1.qwertdd.pw
-DOMAIN,xsapp.cdn.bcebos.com
 DOMAIN,xsgacudwlysw.com
 DOMAIN,xsgcobwd.com
 DOMAIN,xsgpzbipelo.com
@@ -45966,7 +45955,6 @@ DOMAIN-SUFFIX,baiduappu.top
 DOMAIN-SUFFIX,baidubdvjssv.com
 DOMAIN-SUFFIX,baidubvjsbvv.com
 DOMAIN-SUFFIX,baiduccdn1.com
-DOMAIN-SUFFIX,baiducom.bj.bcebos.com
 DOMAIN-SUFFIX,baidudbvjksbvs.com
 DOMAIN-SUFFIX,baidudsvbshj.com
 DOMAIN-SUFFIX,baidudvbjkbssjvsvv.com
@@ -49784,7 +49772,6 @@ DOMAIN-SUFFIX,bizzclick.com
 DOMAIN-SUFFIX,bj-bytsk.com
 DOMAIN-SUFFIX,bj-td-menta-01-callback.advlion.com
 DOMAIN-SUFFIX,bj.ad.track.66mobi.com
-DOMAIN-SUFFIX,bj.bcebos.com
 DOMAIN-SUFFIX,bj1110.online
 DOMAIN-SUFFIX,bj14.9669.cn
 DOMAIN-SUFFIX,bj2550.com
@@ -61814,7 +61801,6 @@ DOMAIN-SUFFIX,cocoarecuperate.com
 DOMAIN-SUFFIX,cocoatransgressdrew.com
 DOMAIN-SUFFIX,cocoawu.b0.upaiyun.com
 DOMAIN-SUFFIX,cococx.com
-DOMAIN-SUFFIX,cocojen.cdn.bcebos.com
 DOMAIN-SUFFIX,coconts.com
 DOMAIN-SUFFIX,coconutsoftenedput.com
 DOMAIN-SUFFIX,coconutsumptuousreseptivereseptive.com
@@ -77276,7 +77262,6 @@ DOMAIN-SUFFIX,dineproteinhamlet.com
 DOMAIN-SUFFIX,dinernicknamestopwatch.com
 DOMAIN-SUFFIX,dinerpropagandatoothbrush.com
 DOMAIN-SUFFIX,dineticfulfill.cyou
-DOMAIN-SUFFIX,dingbu.bj.bcebos.com
 DOMAIN-SUFFIX,dingbuckle.com
 DOMAIN-SUFFIX,dingebeek.com
 DOMAIN-SUFFIX,dingge.cc
@@ -90875,7 +90860,6 @@ DOMAIN-SUFFIX,fbyopnuezvbvp.website
 DOMAIN-SUFFIX,fbzejskmlkqln.site
 DOMAIN-SUFFIX,fbzmrgf.xyz
 DOMAIN-SUFFIX,fbzqfomrzgudj.online
-DOMAIN-SUFFIX,fc-feed.cdn.bcebos.com
 DOMAIN-SUFFIX,fc-sst.ticket-onlineshop.com
 DOMAIN-SUFFIX,fc.3dmgame.com
 DOMAIN-SUFFIX,fc.adswt.com
@@ -99139,7 +99123,6 @@ DOMAIN-SUFFIX,gg2888.com
 DOMAIN-SUFFIX,gg3.51cto.com
 DOMAIN-SUFFIX,gg570.com
 DOMAIN-SUFFIX,gg86.pinggu.org
-DOMAIN-SUFFIX,gg88.bj.bcebos.com
 DOMAIN-SUFFIX,gg8888.cnfol.com
 DOMAIN-SUFFIX,ggai12171cp.com
 DOMAIN-SUFFIX,ggai12180cp.com
@@ -150459,7 +150442,6 @@ DOMAIN-SUFFIX,mgyalhepxgwqz.website
 DOMAIN-SUFFIX,mgyccfrshz.com
 DOMAIN-SUFFIX,mgzgmyzz.com
 DOMAIN-SUFFIX,mgzjin.cn
-DOMAIN-SUFFIX,mgzs.cdn.bcebos.com
 DOMAIN-SUFFIX,mh-miyoshi.jp
 DOMAIN-SUFFIX,mh.theminimalisthub.nl
 DOMAIN-SUFFIX,mh616.org
@@ -152188,8 +152170,6 @@ DOMAIN-SUFFIX,mobaders.com
 DOMAIN-SUFFIX,mobadme.jp
 DOMAIN-SUFFIX,mobads-logs.baidu.cn
 DOMAIN-SUFFIX,mobads-logs.baidu.com
-DOMAIN-SUFFIX,mobads-logs.bcebos.com
-DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
 DOMAIN-SUFFIX,mobads.baidu.cn
 DOMAIN-SUFFIX,mobads.baidu.com
 DOMAIN-SUFFIX,mobads4app.com
@@ -265538,7 +265518,6 @@ DOMAIN-SUFFIX,yrzxtzesdunxz.space
 DOMAIN-SUFFIX,yrzyks.cn
 DOMAIN-SUFFIX,ys-log-upload-os.hoyoverse.com
 DOMAIN-SUFFIX,ys.muhoujiemi.com
-DOMAIN-SUFFIX,ys2000.cdn.bcebos.com
 DOMAIN-SUFFIX,ys3e965d.top
 DOMAIN-SUFFIX,ys630.com
 DOMAIN-SUFFIX,ys6ot.cn
