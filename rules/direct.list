@@ -16,25 +16,6 @@ IP-CIDR,179.255.110.30/32,no-resolve
 IP-CIDR,120.26.67.214/32,no-resolve
 IP-CIDR,72.62.163.76/32,no-resolve
 
-# --- App Store 下载 / 系统更新（优先直连） ---
-DOMAIN,apps.apple.com
-DOMAIN,gdmf.apple.com
-DOMAIN,gdmf.apple.com.cn
-DOMAIN,gg.apple.com
-DOMAIN,gs.apple.com
-DOMAIN,gnf.apple.com
-DOMAIN,skl.apple.com
-DOMAIN,osrecovery.apple.com
-DOMAIN,ppq.apple.com
-DOMAIN,appattest.apple.com
-DOMAIN,static.ips.apple.com
-USER-AGENT,AppStore*
-USER-AGENT,com.apple.appstored*
-USER-AGENT,com.apple.MobileAsset*
-USER-AGENT,com.apple.mobileassetd*
-USER-AGENT,com.apple.softwareupdated*
-USER-AGENT,com.apple.itunesstored*
-
 # --- 局域网 / 回环 / Fake-IP (15) ---
 DOMAIN,localhost
 DOMAIN-SUFFIX,local
@@ -102,20 +83,13 @@ DOMAIN,amdlive-ch03.ctnd.com.edgesuite.net
 DOMAIN,amdlive.ctnd.com.edgesuite.net
 DOMAIN,amp-api-edge-lb-cn.itunes-apple.com.akadns.net
 DOMAIN,amp-api-edge-lb.itunes-apple.com.akadns.net
-DOMAIN,amp-api-edge.apps.apple.com
 DOMAIN,amp-api-edge.music.apple.com
-DOMAIN,amp-api-search-edge.apps.apple.com
-DOMAIN,amp-api-updates.apps.apple.com
-DOMAIN,amp-api.apps.apple.com
 DOMAIN,amp-api.media.apple.com
 DOMAIN,amp-api.music.apple.com
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,analytics.95516.com
 DOMAIN,analytics.strava.com
 DOMAIN,antvlive.ab5c6921.cdnviet.com
-DOMAIN,aod-ssl.itunes.apple.com
-DOMAIN,aod.itunes.apple.com
-DOMAIN,api-edge.apps.apple.com
 DOMAIN,api.alibabacloud.com
 DOMAIN,api.blipsandchitz.me
 DOMAIN,app-analytics-services.com
@@ -129,7 +103,6 @@ DOMAIN,appldnld.g.aaplimg.com
 DOMAIN,appleid.cdn-apple.com
 DOMAIN,apps.mzstatic.com
 DOMAIN,apps5.oingo.com
-DOMAIN,apptrailers.itunes.apple.com
 DOMAIN,as-hls-ww-live.akamaized.net
 DOMAIN,astro1.rastream.com
 DOMAIN,asusrouter.com
@@ -141,7 +114,6 @@ DOMAIN,azurestackhub.download.prss.microsoft.com
 DOMAIN,azurestackhubuat.download.prss.microsoft.com
 DOMAIN,b.c2r.ts.cdn.office.net
 DOMAIN,bag-cdn.itunes-apple.com.akadns.net
-DOMAIN,bag.itunes.apple.com
 DOMAIN,bbstv.clouducs.com
 DOMAIN,bdtj.tagtic.cn
 DOMAIN,beacons.gcp.gvt2.com
@@ -150,7 +122,6 @@ DOMAIN,beacons2.gvt2.com
 DOMAIN,beacons3.gvt2.com
 DOMAIN,bj1.api.bing.com
 DOMAIN,blzddist1-a.akamaihd.net
-DOMAIN,bookkeeper.itunes.apple.com
 DOMAIN,c.admob.com
 DOMAIN,c.android.clients.google.com
 DOMAIN,c.pki.goog
@@ -202,13 +173,11 @@ DOMAIN,cl5.apple.com
 DOMAIN,clickserve.cc-dt.com
 DOMAIN,clickserve.dartsearch.net
 DOMAIN,clickserver.googleads.com
-DOMAIN,client-api.itunes.apple.com
 DOMAIN,client.amplifi.com
 DOMAIN,clientflow.apple.com
 DOMAIN,clientflow.apple.com.akadns.net
 DOMAIN,clientperipherals.dell.com
 DOMAIN,clientservices.googleapis.com
-DOMAIN,cma.itunes.apple.com
 DOMAIN,cn-smp-paymentservices.apple.com
 DOMAIN,cn.alibabacloud.com
 DOMAIN,cn.download.nvidia.com
@@ -287,7 +256,6 @@ DOMAIN,download.microsoft.com
 DOMAIN,download.mlcc.google.com
 DOMAIN,download.tensorflow.google.com
 DOMAIN,download.visualstudio.microsoft.com
-DOMAIN,downloaddispatch.itunes.apple.com
 DOMAIN,dreamspark.download.prss.microsoft.com
 DOMAIN,dreamsparkuat.download.prss.microsoft.com
 DOMAIN,e1.vdowowza.vip.hk1.tvb.com
@@ -301,7 +269,6 @@ DOMAIN,emoi-cncdn.bing.com
 DOMAIN,end-api.shallow.ink
 DOMAIN,end.shallow.ink
 DOMAIN,enrichgw.10010.com
-DOMAIN,entitlements-edge.itunes.apple.com
 DOMAIN,errlog.umeng.com
 DOMAIN,experiments.apple.com
 DOMAIN,f.c2r.ts.cdn.office.net
@@ -320,7 +287,6 @@ DOMAIN,fm983.cityfm.tw
 DOMAIN,fontfiles.googleapis.com
 DOMAIN,fonts.googleapis.com
 DOMAIN,fonts.gstatic.com
-DOMAIN,fpinit.itunes.apple.com
 DOMAIN,fta.dell.com
 DOMAIN,ftaapj.dell.com
 DOMAIN,ftaemea.dell.com
@@ -412,7 +378,6 @@ DOMAIN,img.kuaikanzy.net
 DOMAIN,img.liangzipic.com
 DOMAIN,inappcheck-cn.itunes-apple.com.akadns.net
 DOMAIN,inappcheck-lb.itunes-apple.com.akadns.net
-DOMAIN,inappcheck.itunes.apple.com
 DOMAIN,init-kt.apple.com
 DOMAIN,init-p01md-lb.push-apple.com.akadns.net
 DOMAIN,init-p01md.apple.com
@@ -423,10 +388,7 @@ DOMAIN,init-s01st.push.apple.com
 DOMAIN,init.ess.apple.com
 DOMAIN,init.gc-lb.apple.com.akadns.net
 DOMAIN,init.gc.apple.com
-DOMAIN,init.itunes.apple.com
 DOMAIN,instant.arubanetworks.com
-DOMAIN,iosapps.itunes.apple.com
-DOMAIN,iosapps.itunes.g.aaplimg.com
 DOMAIN,ip.istatmenus.app
 DOMAIN,ipcdn.apple.com
 DOMAIN,iphone-ld.apple.com
@@ -445,7 +407,6 @@ DOMAIN,is5.mzstatic.com
 DOMAIN,itacademy.download.prss.microsoft.com
 DOMAIN,itacademyuat.download.prss.microsoft.com
 DOMAIN,itunes-apple.com.akadns.net
-DOMAIN,itunes.apple.com
 DOMAIN,itunesconnect.apple.com
 DOMAIN,izattime.qcomgeo2.com
 DOMAIN,jpts.sinovision.net
@@ -541,7 +502,6 @@ DOMAIN,mesu-cdn.apple.com.akadns.net
 DOMAIN,mesu-china.apple.com.akadns.net
 DOMAIN,mesu.apple.com
 DOMAIN,mgugaklive.nowcdn.co.kr
-DOMAIN,misc-assets.itunes.apple.com
 DOMAIN,miwifi.com
 DOMAIN,ml.cdn-apple.com
 DOMAIN,mobile.ccdntech.com
@@ -559,8 +519,6 @@ DOMAIN,msproduct.download.prss.microsoft.com
 DOMAIN,mtalk.google.com
 DOMAIN,music.apple.com
 DOMAIN,musicstatus.music.apple.com
-DOMAIN,mvod.itunes.apple.com
-DOMAIN,myapp.itunes.apple.com
 DOMAIN,myvs.download.prss.microsoft.com
 DOMAIN,n18.rcs.revma.com
 DOMAIN,necgokr2-724.acs.wecandeo.com
@@ -571,7 +529,6 @@ DOMAIN,nhkw-zh-hlscomp.akamaized.net
 DOMAIN,nhkwlive-xjp.akamaized.net
 DOMAIN,nis.stream.publicradio.org
 DOMAIN,nishub1.10010.com
-DOMAIN,np-edge.itunes.apple.com
 DOMAIN,nprnat-i.akamaihd.net
 DOMAIN,ntp.aliyun.com
 DOMAIN,ntp.tencent.com
@@ -606,8 +563,6 @@ DOMAIN,origin-a.akamaihd.net
 DOMAIN,oscdn.apple.com
 DOMAIN,oscdn.origin-apple.com.akadns.net
 DOMAIN,osrelease.download.prss.microsoft.com
-DOMAIN,osxapps.itunes.apple.com
-DOMAIN,osxapps.itunes.g.aaplimg.com
 DOMAIN,ott-live.olympicchannel.com
 DOMAIN,p.cdn.persaas.dell.com
 DOMAIN,p00.upd.kaspersky.com
@@ -644,19 +599,14 @@ DOMAIN,p9-juejin.byteimg.com
 DOMAIN,pagead-googlehosted.l.google.com
 DOMAIN,pancake.apple.com
 DOMAIN,pba0.apple.com
-DOMAIN,pd-nk.itunes.apple.com
-DOMAIN,pd.itunes.apple.com
 DOMAIN,performanceparameters.googleapis.com
 DOMAIN,pki-goog.l.google.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN,play.itunes.apple.com
 DOMAIN,play.jinnantv.top
 DOMAIN,play.music.apple.com
 DOMAIN,play.scrstv.com
 DOMAIN,play.sngdxsn.com
 DOMAIN,player.200877926.top
 DOMAIN,podcasts.apple.com
-DOMAIN,podcasts.itunes.apple.com
 DOMAIN,probe.siri.apple.com
 DOMAIN,prod-controlbe.floonet.goog
 DOMAIN,prod-databe.floonet.goog
@@ -722,9 +672,6 @@ DOMAIN,scene7-cdn.dell.com
 DOMAIN,sdk.alibaba.com.ailbaba.me
 DOMAIN,sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net
 DOMAIN,sdx.microsoft.com
-DOMAIN,se-edge.itunes.apple.com
-DOMAIN,se2.itunes.apple.com
-DOMAIN,search.itunes.apple.com
 DOMAIN,seb.sason.top
 DOMAIN,seed-sequoia.siri.apple.com
 DOMAIN,seed-swallow.siri.apple.com
@@ -732,7 +679,6 @@ DOMAIN,seed.siri.apple.com
 DOMAIN,sequoia.apple.com
 DOMAIN,service.urchin.com
 DOMAIN,setmeup.arubanetworks.com
-DOMAIN,sf-api-token-service.itunes.apple.com
 DOMAIN,sh-pod2-smp-device.apple.com
 DOMAIN,shazam-insights.cdn-apple.com
 DOMAIN,shell.cdn.office.net
@@ -745,7 +691,6 @@ DOMAIN,snp.cdn.dell.com
 DOMAIN,snpi.dell.com
 DOMAIN,software.download.prss.microsoft.com
 DOMAIN,sohucao.duapp.com
-DOMAIN,sp.itunes.apple.com
 DOMAIN,speedysub.music.apple.com
 DOMAIN,ss.bjmu.edu.cn
 DOMAIN,ssl-google-analytics.l.google.com
@@ -793,10 +738,8 @@ DOMAIN,stream0.tv41.ru
 DOMAIN,stream01.dqtv123.com
 DOMAIN,stream1.shopch.jp
 DOMAIN,stream2.cprnetwork.org
-DOMAIN,streamingaudio.itunes.apple.com
 DOMAIN,streamipcf.akamaized.net
 DOMAIN,study.163.com
-DOMAIN,su.itunes.apple.com
 DOMAIN,support-china.apple-support.akadns.net
 DOMAIN,support.apple.com
 DOMAIN,supportassist.dell.com
@@ -814,9 +757,7 @@ DOMAIN,swscan-cdn.apple.com.akadns.net
 DOMAIN,swscan.apple.com
 DOMAIN,sycm.mmstat.com
 DOMAIN,sylvan.apple.com
-DOMAIN,sync.itunes.apple.com
 DOMAIN,tac.googleapis.com
-DOMAIN,tf-feedback.itunes.apple.com
 DOMAIN,tiao.cjkypo.com
 DOMAIN,time.amazonaws.cn
 DOMAIN,time.apple.com
@@ -837,14 +778,12 @@ DOMAIN,tv.drs.hhtv.cc
 DOMAIN,tv.jrsncn.com
 DOMAIN,tv.nknews.org
 DOMAIN,uni6rtmp.tulix.tv
-DOMAIN,universal-activity-service.itunes.apple.com
 DOMAIN,update.crashlytics.com
 DOMAIN,update.googleapis.com
 DOMAIN,updates-http.cdn-apple.com
 DOMAIN,updates-http.cdn-apple.com.akadns.net
 DOMAIN,updates.cdn-apple.com
 DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
-DOMAIN,upp.itunes.apple.com
 DOMAIN,v1.one-tv.com
 DOMAIN,valid.apple.com
 DOMAIN,valid.origin-apple.com.akadns.net
@@ -114088,7 +114027,6 @@ DOMAIN-KEYWORD,baidupcs
 DOMAIN-KEYWORD,beplay
 DOMAIN-KEYWORD,bfzycdn.com
 DOMAIN-KEYWORD,bilibili
-DOMAIN-KEYWORD,buy.itunes.apple.com
 DOMAIN-KEYWORD,ccgslb
 DOMAIN-KEYWORD,chinacache
 DOMAIN-KEYWORD,cnki.net
