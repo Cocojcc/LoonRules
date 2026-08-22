@@ -1,6 +1,6 @@
 # NAME: Direct
 # DESC: 直连。国内 IP 用 GEOIP,CN 一条搞定，不再堆几万条中国网段。
-# UPDATED: 2026-08-15
+# UPDATED: 2026-08-22
 # TOTAL: 114169
 # SOURCES: personal + blackmatrix7 ChinaMax 域名 + Loyalsoldier/ACL4SSR 域名
 
@@ -15,6 +15,25 @@ DOMAIN-SUFFIX,volccdn.com
 IP-CIDR,179.255.110.30/32,no-resolve
 IP-CIDR,120.26.67.214/32,no-resolve
 IP-CIDR,72.62.163.76/32,no-resolve
+
+# --- App Store 下载 / 系统更新（优先直连） ---
+DOMAIN,apps.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN,gdmf.apple.com.cn
+DOMAIN,gg.apple.com
+DOMAIN,gs.apple.com
+DOMAIN,gnf.apple.com
+DOMAIN,skl.apple.com
+DOMAIN,osrecovery.apple.com
+DOMAIN,ppq.apple.com
+DOMAIN,appattest.apple.com
+DOMAIN,static.ips.apple.com
+USER-AGENT,AppStore*
+USER-AGENT,com.apple.appstored*
+USER-AGENT,com.apple.MobileAsset*
+USER-AGENT,com.apple.mobileassetd*
+USER-AGENT,com.apple.softwareupdated*
+USER-AGENT,com.apple.itunesstored*
 
 # --- 局域网 / 回环 / Fake-IP (15) ---
 DOMAIN,localhost
