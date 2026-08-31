@@ -42,7 +42,7 @@
 - [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) GFW / China / BanAD / OpenAi
 - [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) 秋风广告
 - [fmz200/wool_scripts](https://github.com/fmz200/wool_scripts) rejectAd / AI
-- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) sr_ad_only.conf（release 快照，按 CC BY-SA 4.0 标注并去重合并到 reject.list）
+- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) lazy.conf 的 Rule 段及其引用规则集（release 快照，已转换为 Loon 语法并去重合并）
 - [Loon0x00/LoonLiteRules](https://github.com/Loon0x00/LoonLiteRules) GEOIP,CN
 
 ## 一行怎么写
