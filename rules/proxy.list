@@ -1,8 +1,9 @@
 # NAME: Proxy
 # DESC: 翻墙。域名为主；IP 只保留 Telegram（客户端常不走域名）。
-# UPDATED: 2026-08-15
+# UPDATED: 2026-08-31
 # TOTAL: 36166
 # SOURCES: blackmatrix7 Global + Loyalsoldier proxy/gfw + ACL4SSR
+
 
 # --- 关键词 (37) ---
 DOMAIN-KEYWORD,1drv

@@ -1,7 +1,7 @@
 # NAME: Direct
 # DESC: 直连。国内 IP 用 GEOIP,CN 一条搞定，不再堆几万条中国网段。
-# UPDATED: 2026-08-22
-# TOTAL: 114169
+# UPDATED: 2026-08-31
+# TOTAL: 114130
 # SOURCES: personal + blackmatrix7 ChinaMax 域名 + Loyalsoldier/ACL4SSR 域名
 
 # --- 个人 / 公司（优先） (10) ---
@@ -15,6 +15,16 @@ DOMAIN-SUFFIX,volccdn.com
 IP-CIDR,179.255.110.30/32,no-resolve
 IP-CIDR,120.26.67.214/32,no-resolve
 IP-CIDR,72.62.163.76/32,no-resolve
+
+# --- App Store 商店和下载（直连） ---
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN,iosapps.itunes.g.aaplimg.com
+DOMAIN,osxapps.itunes.g.aaplimg.com
+DOMAIN-KEYWORD,buy.itunes.apple.com
+USER-AGENT,AppStore*
+USER-AGENT,com.apple.appstored*
+USER-AGENT,com.apple.itunesstored*
 
 # --- 局域网 / 回环 / Fake-IP (15) ---
 DOMAIN,localhost
@@ -114123,21 +114133,17 @@ USER-AGENT,baiduyinyue
 USER-AGENT,balls*
 USER-AGENT,bili*
 USER-AGENT,bili-inter*
-USER-AGENT,bilibili*
 USER-AGENT,cmb*
 USER-AGENT,cmblife*
 USER-AGENT,eusoft_ting_en_iphone
 USER-AGENT,hearthstone*
 USER-AGENT,hide*
 USER-AGENT,iQIYI*
-USER-AGENT,iQiYi*
-USER-AGENT,iQiyi*
 USER-AGENT,live4iphone*
 USER-AGENT,qqlive4iphone*
 USER-AGENT,ting_en
 USER-AGENT,walkman*
 USER-AGENT,xiami*
-USER-AGENT,youku*
 
 # --- 国内 IP 兜底（Loon GeoIP 库，替代原来 1.6 万条 CN CIDR） (1) ---
 GEOIP,CN

@@ -9,12 +9,11 @@
 | 文件 | 策略 | 内容 |
 |---|---|---|
 | `rules/reject.list` | REJECT | 广告 / 追踪 |
-| `rules/appstore.list` | Available | App Store 商店和下载，避免区服冲突 |
 | `rules/direct.list` | DIRECT | 个人/公司、局域网、国内、GEOIP CN |
 | `rules/ai.list` | Available | AI 域名，策略和 proxy 一样 |
 | `rules/proxy.list` | Available | 所有翻墙 |
 
-直连写 `direct.list`，翻墙写 `proxy.list`。App Store 单独一组，必须排在直连前面。
+直连写 `direct.list`，翻墙写 `proxy.list`。
 
 ## 那些 IP 是干什么的
 
