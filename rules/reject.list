@@ -1,7 +1,7 @@
 # NAME: Reject
 # DESC: 广告/追踪域名。已去掉广告 IP 段（易过期、易误伤 DNS）。
 # UPDATED: 2026-09-03
-# TOTAL: 294784
+# TOTAL: 294782
 # SOURCES: fmz200 + blackmatrix7 Advertising + Loyalsoldier reject + ACL4SSR + 秋风
 
 # --- 关键词 (296) ---
@@ -302,7 +302,7 @@ DOMAIN-KEYWORD,zjtoolbar
 DOMAIN-KEYWORD,zooplus
 DOMAIN-KEYWORD,zymerget
 
-# --- 域名 (294472) ---
+# --- 域名 (294470) ---
 DOMAIN,0.code.cotsta.ru
 DOMAIN,00-gov.cn
 DOMAIN,0026645142c89aeb1.com
@@ -144831,7 +144831,6 @@ DOMAIN-SUFFIX,live-a-live.com
 DOMAIN-SUFFIX,live-cams-1.livejasmin.com
 DOMAIN-SUFFIX,live-en.com
 DOMAIN-SUFFIX,live-eu.blushtales.com
-DOMAIN-SUFFIX,live-eu.cryptovot.com
 DOMAIN-SUFFIX,live-eu.familynonstop.com
 DOMAIN-SUFFIX,live-eu.gamesvot.com
 DOMAIN-SUFFIX,live-eu.pornamigo.com
@@ -144851,7 +144850,6 @@ DOMAIN-SUFFIX,live.blushtales.com
 DOMAIN-SUFFIX,live.careplusvn.com
 DOMAIN-SUFFIX,live.casualreadings.com
 DOMAIN-SUFFIX,live.comunicaciones.jetstereo.com
-DOMAIN-SUFFIX,live.cryptovot.com
 DOMAIN-SUFFIX,live.cxo.name
 DOMAIN-SUFFIX,live.demand.supply
 DOMAIN-SUFFIX,live.ec2.cxo.name
