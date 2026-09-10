@@ -1,7 +1,7 @@
 # NAME: Proxy
 # DESC: 翻墙。域名为主；IP 只保留 Telegram（客户端常不走域名）。
 # UPDATED: 2026-09-03
-# TOTAL: 36295
+# TOTAL: 36297
 # SOURCES: blackmatrix7 Global + Loyalsoldier proxy/gfw + ACL4SSR + Johnshall lazy.conf
 
 # --- 关键词 (38) ---
@@ -44,7 +44,7 @@ DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,wikileaks
 DOMAIN-KEYWORD,youtube
 
-# --- 域名 (34482) ---
+# --- 域名 (34484) ---
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -5607,6 +5607,7 @@ DOMAIN-SUFFIX,brightcove.com
 DOMAIN-SUFFIX,brightcove.net
 DOMAIN-SUFFIX,brightcove.services
 DOMAIN-SUFFIX,brightcovecdn.com
+DOMAIN-SUFFIX,brightline.tv
 DOMAIN-SUFFIX,brighton.ac.uk
 DOMAIN-SUFFIX,brightonandsussexmedicalschool.ac.uk
 DOMAIN-SUFFIX,brightoncity.ac.uk
@@ -21735,6 +21736,7 @@ DOMAIN-SUFFIX,nodequality.com
 DOMAIN-SUFFIX,nodereal.io
 DOMAIN-SUFFIX,nodes.ac.uk
 DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,nodeseek.org
 DOMAIN-SUFFIX,nodesnoop.com
 DOMAIN-SUFFIX,nodesource.com
 DOMAIN-SUFFIX,nofile.io
