@@ -1,7 +1,7 @@
 # NAME: Proxy
 # DESC: 翻墙。域名为主；IP 只保留 Telegram（客户端常不走域名）。
 # UPDATED: 2026-09-03
-# TOTAL: 36293
+# TOTAL: 36295
 # SOURCES: blackmatrix7 Global + Loyalsoldier proxy/gfw + ACL4SSR + Johnshall lazy.conf
 
 # --- 关键词 (38) ---
@@ -44,7 +44,7 @@ DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,wikileaks
 DOMAIN-KEYWORD,youtube
 
-# --- 域名 (34480) ---
+# --- 域名 (34482) ---
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -5952,6 +5952,7 @@ DOMAIN-SUFFIX,c-scaipe.ac.uk
 DOMAIN-SUFFIX,c-span.org
 DOMAIN-SUFFIX,c-spanvideo.org
 DOMAIN-SUFFIX,c.gle
+DOMAIN-SUFFIX,c.go-mpulse.net
 DOMAIN-SUFFIX,c.mi.com
 DOMAIN-SUFFIX,c0930.com
 DOMAIN-SUFFIX,c100tibet.org
@@ -30914,6 +30915,7 @@ DOMAIN-SUFFIX,vaultify.com
 DOMAIN-SUFFIX,vaultify.info
 DOMAIN-SUFFIX,vaultify.net
 DOMAIN-SUFFIX,vaultproject.io
+DOMAIN-SUFFIX,vava8.com
 DOMAIN-SUFFIX,vbcdn.com
 DOMAIN-SUFFIX,vbcdn.net
 DOMAIN-SUFFIX,vbejeyv.shop
