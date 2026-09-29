@@ -1,7 +1,7 @@
 # NAME: Reject
 # DESC: 广告/追踪域名。已去掉广告 IP 段（易过期、易误伤 DNS）。
 # UPDATED: 2026-09-03
-# TOTAL: 298441
+# TOTAL: 298438
 # SOURCES: fmz200 + blackmatrix7 Advertising + Loyalsoldier reject + ACL4SSR + 秋风
 
 # --- 关键词 (295) ---
@@ -301,7 +301,7 @@ DOMAIN-KEYWORD,zjtoolbar
 DOMAIN-KEYWORD,zooplus
 DOMAIN-KEYWORD,zymerget
 
-# --- 域名 (298130) ---
+# --- 域名 (298127) ---
 DOMAIN,0.code.cotsta.ru
 DOMAIN,00-gov.cn
 DOMAIN,0026645142c89aeb1.com
@@ -10144,8 +10144,6 @@ DOMAIN,msparktrk.com
 DOMAIN,mspgkbvxtl.com
 DOMAIN,msquaredproductions.com
 DOMAIN,msrigkqkdd.com
-DOMAIN,mssdk.volces.com
-DOMAIN,mssdk.zijieapi.com
 DOMAIN,mstat.ga
 DOMAIN,mstracker.net
 DOMAIN,mswysfgnr.com
@@ -169056,7 +169054,6 @@ DOMAIN-SUFFIX,mssanyiecdyyc.website
 DOMAIN-SUFFIX,mssdk-boot.cpacutapi.com
 DOMAIN-SUFFIX,mssdk-sg.byteoversea.com
 DOMAIN-SUFFIX,mssdk-va.byteoversea.com
-DOMAIN-SUFFIX,mssdk.bytedance.com
 DOMAIN-SUFFIX,mssdk.tiktokw.us
 DOMAIN-SUFFIX,mssdk16-normal-us-ttp.capcutapi.us
 DOMAIN-SUFFIX,mssdkrt.xyz
