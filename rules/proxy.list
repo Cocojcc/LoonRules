@@ -1,7 +1,7 @@
 # NAME: Proxy
 # DESC: 翻墙。域名为主；IP 只保留 Telegram（客户端常不走域名）。
 # UPDATED: 2026-09-03
-# TOTAL: 36424
+# TOTAL: 36453
 # SOURCES: blackmatrix7 Global + Loyalsoldier proxy/gfw + ACL4SSR + Johnshall lazy.conf
 
 # --- 关键词 (38) ---
@@ -44,7 +44,7 @@ DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,wikileaks
 DOMAIN-KEYWORD,youtube
 
-# --- 域名 (34611) ---
+# --- 域名 (34638) ---
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -190,6 +190,7 @@ DOMAIN,d2vjef5jvl6bfs.cloudfront.net
 DOMAIN,d2xmjdvx03ij56.cloudfront.net
 DOMAIN,d31dormfno8pk4.cloudfront.net
 DOMAIN,d33wubrfki0l68.cloudfront.net
+DOMAIN,d348twzf7a8p5.cloudfront.net
 DOMAIN,d36nr0u3xmc4mm.cloudfront.net
 DOMAIN,d3aqoihi2n8ty8.cloudfront.net
 DOMAIN,d3c27h4odz752x.cloudfront.net
@@ -214,6 +215,7 @@ DOMAIN,deribit.cdn.prismic.io
 DOMAIN,deutschewelle.h-cdn.com
 DOMAIN,developer.microsoft.com
 DOMAIN,developers.facebook.com
+DOMAIN,devforum-uploads.s3.dualstack.us-east-2.amazonaws.com
 DOMAIN,dfp6rglgjqszk.cloudfront.net
 DOMAIN,dgeft87wbj63p.cloudfront.net
 DOMAIN,discord-attachments-uploads-prd.storage.googleapis.com
@@ -224,6 +226,7 @@ DOMAIN,dlmobilegarena-a.akamaihd.net
 DOMAIN,dmqdd6hw24ucf.cloudfront.net
 DOMAIN,docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
 DOMAIN,docker-pinata-support.s3.amazonaws.com
+DOMAIN,doy2mn9upadnk.cloudfront.net
 DOMAIN,dqd0jw5gvbchn.cloudfront.net
 DOMAIN,dqrpb9wgowsf5.cloudfront.net
 DOMAIN,ds-linear-abematv.akamaized.net
@@ -270,7 +273,6 @@ DOMAIN,firebaselogging.googleapis.com
 DOMAIN,firebaseperusertopics-pa.googleapis.com
 DOMAIN,firebaseremoteconfig.googleapis.com
 DOMAIN,firstsearch.oclc.org
-DOMAIN,flightsimulator.azureedge.net
 DOMAIN,fontshop-prod-responsive-images.s3.amazonaws.com
 DOMAIN,foxnewsplayer-a.akamaihd.net
 DOMAIN,gamedownloads-rockstargames-com.akamaized.net
@@ -319,6 +321,8 @@ DOMAIN,impala-media-production.s3.amazonaws.com
 DOMAIN,imperial.insendi.com
 DOMAIN,incoming-telemetry.thunderbird.net
 DOMAIN,incoming.telemetry.mozilla.org
+DOMAIN,kp-config-smart-tv.akamaized.net
+DOMAIN,kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
 DOMAIN,lastfm-img.freetls.fastly.net
 DOMAIN,lastfm.freetls.fastly.net
 DOMAIN,lazer.ppy.sh
@@ -1341,6 +1345,7 @@ DOMAIN-SUFFIX,7mmtv.tv
 DOMAIN-SUFFIX,7tb.cc
 DOMAIN-SUFFIX,7tv.app
 DOMAIN-SUFFIX,7tv.io
+DOMAIN-SUFFIX,7x24hrs.com
 DOMAIN-SUFFIX,8-d.com
 DOMAIN-SUFFIX,8008206616.com
 DOMAIN-SUFFIX,8111y.top
@@ -3278,7 +3283,6 @@ DOMAIN-SUFFIX,asminternational.org
 DOMAIN-SUFFIX,asmr.gay
 DOMAIN-SUFFIX,asmrbuluo.com
 DOMAIN-SUFFIX,asn-online.org
-DOMAIN-SUFFIX,asobostudio.com
 DOMAIN-SUFFIX,asp-cc.com
 DOMAIN-SUFFIX,asp.net
 DOMAIN-SUFFIX,aspbjournals.org
@@ -4177,8 +4181,14 @@ DOMAIN-SUFFIX,beevpn.com
 DOMAIN-SUFFIX,beforeigners.com
 DOMAIN-SUFFIX,befuck.com
 DOMAIN-SUFFIX,befuck.net
+DOMAIN-SUFFIX,beget.app
+DOMAIN-SUFFIX,beget.cloud
 DOMAIN-SUFFIX,beget.com
+DOMAIN-SUFFIX,beget.de
+DOMAIN-SUFFIX,beget.hosting
+DOMAIN-SUFFIX,beget.pro
 DOMAIN-SUFFIX,beget.ru
+DOMAIN-SUFFIX,begetcdn.cloud
 DOMAIN-SUFFIX,behance.net
 DOMAIN-SUFFIX,behaviour4learning.ac.uk
 DOMAIN-SUFFIX,behavioural-science.ac.uk
@@ -4238,6 +4248,7 @@ DOMAIN-SUFFIX,bernards.ac.uk
 DOMAIN-SUFFIX,beru.ru
 DOMAIN-SUFFIX,besa.ac.uk
 DOMAIN-SUFFIX,besc.ac.uk
+DOMAIN-SUFFIX,beserver.ru
 DOMAIN-SUFFIX,beside.ac.uk
 DOMAIN-SUFFIX,bess.ac.uk
 DOMAIN-SUFFIX,best-sex-games.com
@@ -4367,6 +4378,7 @@ DOMAIN-SUFFIX,bfnn.org
 DOMAIN-SUFFIX,bfsh.hk
 DOMAIN-SUFFIX,bftv.ac.uk
 DOMAIN-SUFFIX,bgc.ac.uk
+DOMAIN-SUFFIX,bget.ru
 DOMAIN-SUFFIX,bgicdn.com
 DOMAIN-SUFFIX,bgm.tv
 DOMAIN-SUFFIX,bgme.me
@@ -7997,6 +8009,7 @@ DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,curve.fi
 DOMAIN-SUFFIX,curvefish.com
 DOMAIN-SUFFIX,curvybbwwives.com
@@ -11619,7 +11632,6 @@ DOMAIN-SUFFIX,flickr.com
 DOMAIN-SUFFIX,flickr.net
 DOMAIN-SUFFIX,flickrhivemind.net
 DOMAIN-SUFFIX,flickriver.com
-DOMAIN-SUFFIX,flightsimulator.com
 DOMAIN-SUFFIX,fling.com
 DOMAIN-SUFFIX,flipboard.com
 DOMAIN-SUFFIX,flipfap.com
@@ -18709,6 +18721,7 @@ DOMAIN-SUFFIX,magicalmirai.com
 DOMAIN-SUFFIX,magicmovies.com
 DOMAIN-SUFFIX,maglue.ac.uk
 DOMAIN-SUFFIX,magnacartacollege.ac.uk
+DOMAIN-SUFFIX,magnific.com
 DOMAIN-SUFFIX,mahabodhi.org
 DOMAIN-SUFFIX,mahajantech.com
 DOMAIN-SUFFIX,mahjongsoul.com
@@ -20455,6 +20468,7 @@ DOMAIN-SUFFIX,mtao.fun
 DOMAIN-SUFFIX,mtec.ac.uk
 DOMAIN-SUFFIX,mthruf.com
 DOMAIN-SUFFIX,mti.ac.uk
+DOMAIN-SUFFIX,mts-link.ru
 DOMAIN-SUFFIX,mts-ws.net
 DOMAIN-SUFFIX,mts.ru
 DOMAIN-SUFFIX,mtsbank.ru
@@ -22632,6 +22646,7 @@ DOMAIN-SUFFIX,opdems.ac.uk
 DOMAIN-SUFFIX,open.ac.uk
 DOMAIN-SUFFIX,open.com.hk
 DOMAIN-SUFFIX,open.firstory.me
+DOMAIN-SUFFIX,openai.org
 DOMAIN-SUFFIX,openallweb.com
 DOMAIN-SUFFIX,openamt.com
 DOMAIN-SUFFIX,openapi-quote.longbridge.cn
@@ -24277,6 +24292,7 @@ DOMAIN-SUFFIX,postimages.org
 DOMAIN-SUFFIX,postimg.cc
 DOMAIN-SUFFIX,postimg.org
 DOMAIN-SUFFIX,postini.com
+DOMAIN-SUFFIX,postman.com
 DOMAIN-SUFFIX,posts.careerengine.us
 DOMAIN-SUFFIX,posty.kr
 DOMAIN-SUFFIX,postyourgirls.ws
@@ -24634,6 +24650,7 @@ DOMAIN-SUFFIX,putinho.net
 DOMAIN-SUFFIX,putlocker.com
 DOMAIN-SUFFIX,putty.org
 DOMAIN-SUFFIX,puuko.com
+DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,pvp.net
 DOMAIN-SUFFIX,pvp.tv
 DOMAIN-SUFFIX,pvt.sexy
@@ -26141,6 +26158,7 @@ DOMAIN-SUFFIX,sccjr.ac.uk
 DOMAIN-SUFFIX,scct.ac.uk
 DOMAIN-SUFFIX,scde.ac.uk
 DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,scea.com
 DOMAIN-SUFFIX,scene7.com
 DOMAIN-SUFFIX,scenesource.me
 DOMAIN-SUFFIX,scentro.ac.uk
@@ -26162,6 +26180,7 @@ DOMAIN-SUFFIX,schwab.com.cn
 DOMAIN-SUFFIX,schwab.com.hk
 DOMAIN-SUFFIX,schwab.com.sg
 DOMAIN-SUFFIX,schwabassetmanagement.com
+DOMAIN-SUFFIX,schwabcdn.com
 DOMAIN-SUFFIX,schwabplan.com
 DOMAIN-SUFFIX,sci-hub.ee
 DOMAIN-SUFFIX,sci-hub.it.nf
@@ -27486,6 +27505,7 @@ DOMAIN-SUFFIX,sony.com.ni
 DOMAIN-SUFFIX,sony.com.pa
 DOMAIN-SUFFIX,sony.com.pe
 DOMAIN-SUFFIX,sony.com.ph
+DOMAIN-SUFFIX,sony.com.py
 DOMAIN-SUFFIX,sony.com.sg
 DOMAIN-SUFFIX,sony.com.sv
 DOMAIN-SUFFIX,sony.com.tr
@@ -27528,8 +27548,10 @@ DOMAIN-SUFFIX,sonyclassics.com
 DOMAIN-SUFFIX,sonydesign.com
 DOMAIN-SUFFIX,sonydna.com
 DOMAIN-SUFFIX,sonyglobalsolutions.jp
+DOMAIN-SUFFIX,sonyinteractive.com
 DOMAIN-SUFFIX,sonykigyo.jp
 DOMAIN-SUFFIX,sonylatvija.com
+DOMAIN-SUFFIX,sonymusic.com.hk
 DOMAIN-SUFFIX,sonynetwork.co.jp
 DOMAIN-SUFFIX,sonypcl.jp
 DOMAIN-SUFFIX,sonypictures.com
@@ -27775,6 +27797,7 @@ DOMAIN-SUFFIX,sprint.ac.uk
 DOMAIN-SUFFIX,sprite.org
 DOMAIN-SUFFIX,sproutcore.com
 DOMAIN-SUFFIX,sproxy.info
+DOMAIN-SUFFIX,sprut.io
 DOMAIN-SUFFIX,spsrn.ac.uk
 DOMAIN-SUFFIX,sptvbroadcast.com
 DOMAIN-SUFFIX,spurgeons.ac.uk
@@ -29526,6 +29549,8 @@ DOMAIN-SUFFIX,timesofindia.indiatimes.com
 DOMAIN-SUFFIX,timestalks.com
 DOMAIN-SUFFIX,timeweb.cloud
 DOMAIN-SUFFIX,timeweb.com
+DOMAIN-SUFFIX,timeweb.tech
+DOMAIN-SUFFIX,timewebcloud.kz
 DOMAIN-SUFFIX,timi1.me
 DOMAIN-SUFFIX,timo0.com
 DOMAIN-SUFFIX,timsah.com
@@ -30314,6 +30339,7 @@ DOMAIN-SUFFIX,typekit.com
 DOMAIN-SUFFIX,typekit.net
 DOMAIN-SUFFIX,typenetwork.com
 DOMAIN-SUFFIX,typepad.com
+DOMAIN-SUFFIX,typesafe.ai
 DOMAIN-SUFFIX,typeset.io
 DOMAIN-SUFFIX,typesquare.com
 DOMAIN-SUFFIX,typography.com
@@ -33236,6 +33262,7 @@ DOMAIN-SUFFIX,xn--8uq428d76d.tokyo
 DOMAIN-SUFFIX,xn--90ab.com
 DOMAIN-SUFFIX,xn--90ab2c.xn--p1ai
 DOMAIN-SUFFIX,xn--90absjljw3g.xn--p1ai
+DOMAIN-SUFFIX,xn--90aefb9d.xn--p1ai
 DOMAIN-SUFFIX,xn--90aifd0az.shop
 DOMAIN-SUFFIX,xn--90aifd0azb.xn--p1acf
 DOMAIN-SUFFIX,xn--90wwvt03e.com
@@ -34883,6 +34910,9 @@ DOMAIN-SUFFIX,bnetshopus.akamaized.net
 DOMAIN-SUFFIX,bytegecko-i18n.com
 DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-SUFFIX,capcutapi.us
+DOMAIN-SUFFIX,capcutstatic.com
 DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
 DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
 DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
@@ -35124,7 +35154,6 @@ DOMAIN-SUFFIX,prod-controlbe.floonet.goog
 DOMAIN-SUFFIX,prod-databe.floonet.goog
 DOMAIN-SUFFIX,prod-video-cms-rt-microsoft-com.akamaized.net
 DOMAIN-SUFFIX,prod.databe.floonet.goog
-DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,reactorms.com.cn
 DOMAIN-SUFFIX,redirector.gcpcdn.gvt1.com
 DOMAIN-SUFFIX,redirector.gvt1.com

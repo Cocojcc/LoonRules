@@ -1,14 +1,14 @@
 # NAME: AI
 # DESC: AI 服务域名。策略同翻墙 Available。
 # UPDATED: 2026-09-03
-# TOTAL: 117
+# TOTAL: 118
 # SOURCES: fmz200 + blackmatrix7 + ACL4SSR OpenAi
 
 # --- 组合规则 (2) ---
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
 AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
 
-# --- 域名 (104) ---
+# --- 域名 (105) ---
 DOMAIN,ai.google.dev
 DOMAIN,aida.googleapis.com
 DOMAIN,aistudio.google.com
@@ -59,6 +59,7 @@ DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apple-relay.apple.com

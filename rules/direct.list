@@ -1,7 +1,7 @@
 # NAME: Direct
 # DESC: 直连。国内 IP 用 GEOIP,CN 一条搞定，不再堆几万条中国网段。
 # UPDATED: 2026-09-03
-# TOTAL: 5884
+# TOTAL: 5886
 # SOURCES: personal/company + custom direct + Johnshall lazy.conf DIRECT rule sets
 
 # --- 个人 / 公司（优先） (10) ---
@@ -271,6 +271,8 @@ DOMAIN,ip.istatmenus.app
 DOMAIN,kc.kexinshe.com
 DOMAIN,lf3-static.bytednsdoc.com
 DOMAIN,local.adguard.org
+DOMAIN,localhost.weixin.qq.com
+DOMAIN,localhost.work.weixin.qq.com
 DOMAIN,lookup-api.apple.com.edgekey.net
 DOMAIN,netease.ugcvideoss.ourdvs.com
 DOMAIN,ntservicepack.microsoft.com
