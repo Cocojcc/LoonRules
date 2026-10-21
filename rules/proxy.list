@@ -1,7 +1,7 @@
 # NAME: Proxy
 # DESC: 翻墙。域名为主；IP 只保留 Telegram（客户端常不走域名）。
 # UPDATED: 2026-09-03
-# TOTAL: 36453
+# TOTAL: 36455
 # SOURCES: blackmatrix7 Global + Loyalsoldier proxy/gfw + ACL4SSR + Johnshall lazy.conf
 
 # --- 关键词 (38) ---
@@ -44,7 +44,7 @@ DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,wikileaks
 DOMAIN-KEYWORD,youtube
 
-# --- 域名 (34638) ---
+# --- 域名 (34640) ---
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -3640,8 +3640,10 @@ DOMAIN-SUFFIX,avinetworks.com
 DOMAIN-SUFFIX,avinin.com
 DOMAIN-SUFFIX,avira.com
 DOMAIN-SUFFIX,avistaz.to
+DOMAIN-SUFFIX,avito.com
 DOMAIN-SUFFIX,avito.ru
 DOMAIN-SUFFIX,avito.st
+DOMAIN-SUFFIX,avito.tech
 DOMAIN-SUFFIX,avizoon.site
 DOMAIN-SUFFIX,avizoone.com
 DOMAIN-SUFFIX,avjb.com
