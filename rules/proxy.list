@@ -1,7 +1,7 @@
 # NAME: Proxy
 # DESC: 翻墙。域名为主；IP 只保留 Telegram（客户端常不走域名）。
 # UPDATED: 2026-09-03
-# TOTAL: 36544
+# TOTAL: 36551
 # SOURCES: blackmatrix7 Global + Loyalsoldier proxy/gfw + ACL4SSR + Johnshall lazy.conf
 
 # --- 关键词 (38) ---
@@ -44,7 +44,7 @@ DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,wikileaks
 DOMAIN-KEYWORD,youtube
 
-# --- 域名 (34715) ---
+# --- 域名 (34722) ---
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -3185,6 +3185,7 @@ DOMAIN-SUFFIX,artel.watch
 DOMAIN-SUFFIX,arteldoc.com
 DOMAIN-SUFFIX,arteldoc.tv
 DOMAIN-SUFFIX,artifact.ac.uk
+DOMAIN-SUFFIX,artificialanalysis.ai
 DOMAIN-SUFFIX,artixlinux.org
 DOMAIN-SUFFIX,artnudegalleries.com
 DOMAIN-SUFFIX,artoferotica.info
@@ -7208,6 +7209,7 @@ DOMAIN-SUFFIX,climate-lab-book.ac.uk
 DOMAIN-SUFFIX,climate-server.com
 DOMAIN-SUFFIX,climatechangewales.ac.uk
 DOMAIN-SUFFIX,climb.ac.uk
+DOMAIN-SUFFIX,cline.bot
 DOMAIN-SUFFIX,cling.omy.sg
 DOMAIN-SUFFIX,clinica-tibet.ru
 DOMAIN-SUFFIX,clinical-videos.com
@@ -7552,6 +7554,7 @@ DOMAIN-SUFFIX,comm-coll-hackney.ac.uk
 DOMAIN-SUFFIX,comm-verse.com
 DOMAIN-SUFFIX,commandandconquer.com
 DOMAIN-SUFFIX,commandarms.com
+DOMAIN-SUFFIX,commandcode.ai
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,commentshk.com
 DOMAIN-SUFFIX,commerceos.com
@@ -7633,6 +7636,7 @@ DOMAIN-SUFFIX,content.office.net
 DOMAIN-SUFFIX,contentful.com
 DOMAIN-SUFFIX,contest.com
 DOMAIN-SUFFIX,contests.twilio.com
+DOMAIN-SUFFIX,context7.com
 DOMAIN-SUFFIX,convio.net
 DOMAIN-SUFFIX,convrgencegame.com
 DOMAIN-SUFFIX,coobay.com
@@ -19452,6 +19456,7 @@ DOMAIN-SUFFIX,messybrainz.org
 DOMAIN-SUFFIX,messytube.com
 DOMAIN-SUFFIX,met-nude.com
 DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metaaiusercontent.com
 DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,metabolomics.ac.uk
 DOMAIN-SUFFIX,metabora.io
@@ -21991,6 +21996,7 @@ DOMAIN-SUFFIX,nottinghampost.com
 DOMAIN-SUFFIX,nottinghamtrentadfs.ac.uk
 DOMAIN-SUFFIX,nottm-coll.ac.uk
 DOMAIN-SUFFIX,nottsmaternity.ac.uk
+DOMAIN-SUFFIX,nousresearch.com
 DOMAIN-SUFFIX,novafile.com
 DOMAIN-SUFFIX,novelai.net
 DOMAIN-SUFFIX,novelasia.com
@@ -29401,6 +29407,7 @@ DOMAIN-SUFFIX,thinkhigher.ac.uk
 DOMAIN-SUFFIX,thinking3d.ac.uk
 DOMAIN-SUFFIX,thinkingtaiwan.com
 DOMAIN-SUFFIX,thinkofliving.com
+DOMAIN-SUFFIX,thinkorswim.com
 DOMAIN-SUFFIX,thinkquarterly.co.uk
 DOMAIN-SUFFIX,thinkquarterly.com
 DOMAIN-SUFFIX,thinkwales.ac.uk
