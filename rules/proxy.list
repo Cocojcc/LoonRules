@@ -1,7 +1,7 @@
 # NAME: Proxy
 # DESC: 翻墙。域名为主；IP 只保留 Telegram（客户端常不走域名）。
 # UPDATED: 2026-09-03
-# TOTAL: 36574
+# TOTAL: 36578
 # SOURCES: blackmatrix7 Global + Loyalsoldier proxy/gfw + ACL4SSR + Johnshall lazy.conf
 
 # --- 关键词 (38) ---
@@ -44,7 +44,7 @@ DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,wikileaks
 DOMAIN-KEYWORD,youtube
 
-# --- 域名 (34745) ---
+# --- 域名 (34749) ---
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -18187,6 +18187,9 @@ DOMAIN-SUFFIX,lilhumpers.com
 DOMAIN-SUFFIX,liliav.com
 DOMAIN-SUFFIX,lilith-soft.com
 DOMAIN-SUFFIX,limavady.ac.uk
+DOMAIN-SUFFIX,limbuscompany.global
+DOMAIN-SUFFIX,limbuscompanyapi.com
+DOMAIN-SUFFIX,limbuscompanycdn.org
 DOMAIN-SUFFIX,lime.ac.uk
 DOMAIN-SUFFIX,limedia.tw
 DOMAIN-SUFFIX,limelight.com
@@ -19194,7 +19197,6 @@ DOMAIN-SUFFIX,maturewifeporn.cc
 DOMAIN-SUFFIX,maturewomenanal.com
 DOMAIN-SUFFIX,maturexxxvideos.cc
 DOMAIN-SUFFIX,mau.ac.uk
-DOMAIN-SUFFIX,maven.neoforged.net
 DOMAIN-SUFFIX,maven.org
 DOMAIN-SUFFIX,max-tcs.ru
 DOMAIN-SUFFIX,max.com
@@ -24576,6 +24578,7 @@ DOMAIN-SUFFIX,projectbaseline.com
 DOMAIN-SUFFIX,projectcircuitbreaker.com
 DOMAIN-SUFFIX,projecteuclid.org
 DOMAIN-SUFFIX,projectjav.com
+DOMAIN-SUFFIX,projectmoon.studio
 DOMAIN-SUFFIX,projectmurphy.net
 DOMAIN-SUFFIX,projectpoint.com
 DOMAIN-SUFFIX,projectpoint.net
@@ -27244,6 +27247,7 @@ DOMAIN-SUFFIX,skillshare.com
 DOMAIN-SUFFIX,skillswestyorks.ac.uk
 DOMAIN-SUFFIX,skimtube.com
 DOMAIN-SUFFIX,skinstrip.net
+DOMAIN-SUFFIX,skinswap.com
 DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,skokka.com
 DOMAIN-SUFFIX,sksarab.top
